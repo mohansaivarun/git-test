@@ -1,0 +1,24 @@
+{
+    "name": "git-test",
+    "version": "1.0.0",
+    "description": "This is a Test for Git",
+    "main": "index.html",
+    "scripts": {
+        "start": "npm run xyz",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "xyz": "lite-server"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mohansaivarun/git-test.git"
+    },
+    "author": "K M S Varun",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/mohansaivarun/git-test/issues"
+    },
+    "homepage": "https://github.com/mohansaivarun/git-test#readme",
+    "dependencies": {
+        "lite-server": "^2.6.1"
+    }
+}
